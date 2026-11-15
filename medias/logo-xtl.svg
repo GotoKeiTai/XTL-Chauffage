@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 92" role="img" aria-label="Flamme XTL-Chauffage">
+  <!-- Reproduction provisoire de la flamme de la carte de visite : à remplacer par le fichier logo d'origine -->
+  <path fill="#B83A28" d="M30 2C34 18 52 28 52 50c0 16-10 26-22 26S8 66 8 50c0-10 6-18 12-24 0 8 4 12 6 12-2-12 0-26 4-36z"/>
+  <path fill="#fff" d="M30 28c4 11 10 17 10 28 0 8-4 12-10 12s-10-4-10-12c0-8 6-14 10-28z"/>
+  <path fill="#B83A28" d="M30 46c3 6 5 10 5 14 0 4-2 6-5 6s-5-2-5-6c0-4 2-8 5-14z"/>
+  <g fill="#3C78E0"><rect x="6" y="80" width="11" height="11"/><rect x="20" y="80" width="11" height="11"/><rect x="34" y="80" width="11" height="11"/><rect x="34" y="66" width="11" height="11" opacity="0"/></g>
+</svg>
