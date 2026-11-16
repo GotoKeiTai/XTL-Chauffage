@@ -45,9 +45,9 @@
         }).then(function (reponse) {
             if (!reponse.ok) { throw new Error('HTTP ' + reponse.status); }
             formulaire.reset();
-            afficher('Merci ! Votre demande a bien été envoyée. Je vous réponds rapidement.', 'ok');
+            afficher('Merci ! Votre demande a bien été envoyée. Nous vous répondons rapidement.', 'ok');
         }).catch(function () {
-            afficher("L'envoi a échoué. Réessayez ou appelez-moi au 065 87 50 66.", 'erreur');
+            afficher("L'envoi a échoué. Réessayez ou appelez-nous au 065 87 50 66.", 'erreur');
         }).finally(function () {
             bouton.disabled = false;
             bouton.value = texteBouton;
