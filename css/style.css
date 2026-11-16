@@ -170,7 +170,7 @@ body > header {
 
 .header-nav a:hover,
 .header-nav a[aria-current="page"] {
-    color: var(--orange-fonce);
+    color: var(--flamme);
 }
 
 .header-burger {
@@ -230,7 +230,7 @@ body > header {
 }
 
 .header-sous-menu a:hover {
-    color: var(--orange-fonce);
+    color: var(--flamme);
 }
 
 /* Dans le menu mobile, les sous-menus restent visibles, en retrait */
