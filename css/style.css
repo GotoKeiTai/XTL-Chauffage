@@ -99,7 +99,8 @@ ul {
 
 /* Le contenu de chaque section est centré et limité en largeur */
 main > section,
-main > aside {
+main > aside,
+main > .realisations-section-bottom {
     width: min(1180px, 100% - 2 * var(--marge));
     margin-inline: auto;
     padding-block: clamp(3rem, 7vw, 6rem);
