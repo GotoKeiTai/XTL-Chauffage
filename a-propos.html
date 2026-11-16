@@ -14,7 +14,8 @@
         <meta property="og:description" content="Découvrez XTL-Chauffage, entreprise de chauffage et de sanitaire basée à Mons (Cuesmes).">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=Caveat:wght@500;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=Caveat:wght@500;700&display=swap"></noscript>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
@@ -130,7 +131,7 @@
                 <p>Présentation de l'entreprise, de son histoire et de sa façon de travailler à venir. <span class="placeholder-badge" data-placeholder>texte à fournir par le client</span></p>
             </div>
             <figure class="apropos-visuel">
-                <img src="./medias/chaufferie.webp" width="1200" height="798" alt="Chaufferie avec tuyaux et manomètres" loading="lazy">
+                <img src="./medias/chaufferie.webp" srcset="./medias/chaufferie-480.webp 480w, ./medias/chaufferie-800.webp 800w, ./medias/chaufferie.webp 1200w" sizes="(min-width: 900px) 500px, 100vw" width="1200" height="798" alt="Chaufferie avec tuyaux et manomètres" loading="lazy">
             </figure>
         </section>
 
