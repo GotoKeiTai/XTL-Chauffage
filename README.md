@@ -11,7 +11,7 @@ mentions-legales.html · confidentialite.html · 404.html
 css/style.css        Feuille de style unique
 js/contact.js        Envoi du formulaire de devis
 medias/              Images WebP, logo SVG, CREDITS.md (originaux dans medias/originaux/)
-`.nojekyll`
+.nojekyll
 ```
 
 ## Voir le site en local
