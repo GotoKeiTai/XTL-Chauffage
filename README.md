@@ -11,7 +11,7 @@ mentions-legales.html · confidentialite.html · 404.html
 css/style.css        Feuille de style unique
 js/contact.js        Envoi du formulaire de devis
 medias/              Images WebP, logo SVG, CREDITS.md (originaux dans medias/originaux/)
-robots.txt · sitemap.xml · .nojekyll
+robots.txt · .nojekyll
 ```
 
 ## Voir le site en local
@@ -20,7 +20,6 @@ Ouvrir `index.html` dans un navigateur, ou lancer `python3 -m http.server` dans 
 ## Mise en ligne (GitHub Pages)
 1. Pousser le dépôt sur GitHub (dépôt public).
 2. *Settings → Pages → Deploy from a branch → `main` / `(root)`*.
-3. Adapter l'adresse de base dans `sitemap.xml` et `robots.txt`.
 
 ## Activer le formulaire de devis
 1. Créer un formulaire sur https://formspree.io (gratuit) avec l'e-mail de réception.

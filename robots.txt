@@ -1,5 +1,2 @@
 User-agent: *
 Allow: /
-
-# A ADAPTER : remplacer par l'adresse réelle du site publié
-Sitemap: https://gotokeitai.github.io/XTL-Chauffage/sitemap.xml
