@@ -9,7 +9,8 @@ Cuesmes (Mons). Réalisé dans le cadre d'un projet scolaire (EAFC).
 index.html · services.html · a-propos.html · realisations.html · contact.html
 mentions-legales.html · confidentialite.html · 404.html
 css/style.css        Feuille de style unique
-js/contact.js        Envoi du formulaire de devis
+contact.js           Formulaire de contact (code fourni, ouvre la messagerie)
+js/menu.js           Fermeture du menu mobile
 medias/              Images WebP et logo SVG
 .nojekyll
 ```

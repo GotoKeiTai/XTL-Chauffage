@@ -755,19 +755,6 @@ main > .index-section-avis {
     resize: vertical;
 }
 
-.contact-case {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.7rem;
-}
-
-.contact-case input {
-    width: 22px;
-    height: 22px;
-    flex-shrink: 0;
-    margin-top: 0.2rem;
-}
-
 .contact-submit {
     min-height: 52px;
     border: 2px solid var(--orange);
@@ -782,33 +769,6 @@ main > .index-section-avis {
 .contact-submit:hover {
     background-color: var(--orange-fonce);
     border-color: var(--orange-fonce);
-}
-
-.contact-message {
-    text-align: center;
-    font-weight: 700;
-}
-
-.contact-message--ok {
-    color: #1d6b3a;
-}
-
-.contact-message--erreur {
-    color: var(--flamme);
-}
-
-/* Champ piège anti-spam : caché pour les humains */
-.champ-piege {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-.contact-submit:disabled {
-    opacity: 0.6;
-    cursor: wait;
 }
 
 .contact-coordonnees {
