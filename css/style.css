@@ -195,6 +195,17 @@ body > header {
     border: 1px solid var(--peche);
     border-radius: var(--rayon);
     box-shadow: 0 20px 40px -20px rgba(58, 35, 20, 0.4);
+    /* Le menu ne dépasse jamais l'écran : il défile à l'intérieur (en-tête et barre du bas déduits) */
+    max-height: calc(100vh - 11rem);
+    max-height: calc(100dvh - 11rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+/* Zones de toucher confortables (44 px minimum) dans le menu mobile */
+.header-menu-mobile a {
+    display: block;
+    padding: 0.6rem 0;
 }
 
 /* Menu déroulant : le sous-menu apparaît au survol ou au clavier (focus) */
@@ -236,6 +247,7 @@ body > header {
 /* Dans le menu mobile, les sous-menus restent visibles, en retrait */
 .header-menu-mobile .header-sous-menu {
     padding-left: 1rem;
+    gap: 0;
 }
 
 /* Composants,... */
