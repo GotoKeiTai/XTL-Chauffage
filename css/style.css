@@ -350,6 +350,7 @@ body > header {
     padding: 1.3rem 1.4rem 1.5rem;
 }
 
+.carte-service-corps h2,
 .carte-service-corps h3 {
     font-size: 1.3rem;
     font-weight: 700;
